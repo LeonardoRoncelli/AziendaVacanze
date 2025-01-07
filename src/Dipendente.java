@@ -1,5 +1,5 @@
 import java.util.*;
-public abstract class Dipendente implements Comparable<Dipendente> {
+public abstract class Dipendente implements Dipendente{
     private String nome;
     private String cognome;
     private String codiceFiscale;
