@@ -18,7 +18,7 @@ public class LibroPaga {
         for (Dipendente d : dipendenti) {
             if (d instanceof DipendenteCommissionePlusBase) {
                 DipendenteCommissionePlusBase dcpb = (DipendenteCommissionePlusBase) d;
-                dcpb.setStipendioBase(dcpb.getStipendioBase() * 1.1); // Aggiungi il 10%
+                dcpb.setStipendioBase(dcpb.getStipendioBase() * 1.1);
             }
         }
     }
