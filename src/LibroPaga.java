@@ -12,7 +12,6 @@ public class LibroPaga {
         }
     }
     public void stampaDipendentiOrdinati() {
-        Collections.sort(dipendenti);
         stampaDipendenti();
     }
     public void modificaStipendioBase() {
